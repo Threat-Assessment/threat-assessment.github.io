@@ -1,4 +1,4 @@
-# Bowfolios
+# Argument Map Assessment
 
 ## Table of contents
 
@@ -15,28 +15,9 @@
 
 ## Overview
 
-BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
+Argument Map Assessment aims to develop a desktop application for the School of Life Sciences (SoLS) at the University of Hawaii at Manoa. Twenty SoLS graduate students evaluated threat assessments for endangered species in the IUCN Red List, translating the reasoning into argument maps. This application will read and interpret texts from Excel spreadsheets, assess the quality of the students' argument maps, and compare how similar or different the maps are across students. 
 
-* [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
-* [React](https://reactjs.org/) for component-based UI implementation and routing.
-* [React Bootstrap](https://react-bootstrap.github.io/) CSS Framework for UI design.
-* [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
-
-It also provides code that implements a variety of useful design concepts, including:
-
-* Three primary collections (Profiles, Projects, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesProjects, and ProjectsInterests) that implement many-to-many relationships between them.
-* Top-level index pages (Profiles, Interests, and Projects) that show how to manipulate these six collections in various ways.
-* Initialization code to define default Profiles, Interests, and Projects and relations between them.
-* A simple Filter page to illustrate how to perform simple queries on the database and display the results.
-* Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
-* Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
-* Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
-* Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
-* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
-
-## User Guide
-
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
+## Project Updates
 
 ### Landing Page
 
@@ -334,4 +315,4 @@ There are a number of simple enhancements you can make to the system to become b
 
 ## Team
 
-BowFolios is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org) and [Cam Moore](https://cammoore.github.io/).
+Argument Map Assessment is designed, implemented, and maintained by Chester Leoso and Karissa Tabadero.
