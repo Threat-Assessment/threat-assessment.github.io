@@ -8,7 +8,7 @@
 
 ## Overview
 
-Threat Assessment aims to develop a desktop application for the School of Life Sciences (SoLS) at the University of Hawaiʻi at Mānoa. Twenty SoLS graduate students evaluated threat assessments for endangered species in the IUCN Red List, translating the reasoning into argument maps. This application will read and interpret texts from Excel spreadsheets, assess the quality of the students' argument maps, and compare how similar or different the maps are across students.
+Threat Assessment aims to develop a desktop application for the School of Life Sciences (SoLS) at the University of Hawaiʻi at Mānoa. Twenty SoLS graduate students evaluated threat assessments for endangered species in the [IUCN Red List](https://www.iucnredlist.org/), translating the reasoning into argument maps. This application will read and interpret texts from Excel spreadsheets, assess the quality of the students' argument maps, and compare how similar or different the maps are across students.
 
 ## Project Updates
 
@@ -37,4 +37,4 @@ We continued developing the application and meeting occasionally, but most of th
 
 ## Team
 
-Argument Map Assessment is designed, implemented, and maintained by Chester Leoso and Karissa Tabadero. 
+Argument Map Assessment is designed, implemented, and maintained by Karissa Tabadero and Chester Leoso. 
