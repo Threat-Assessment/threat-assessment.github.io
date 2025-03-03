@@ -17,22 +17,22 @@ This section provides ongoing updates about the project.
 ### Week of 01/20/25 
 <!---1/22/24-->
 
-We met as a team to introduce ourselves and discuss the project. We shared our schedules, initialized the project, and designated the point of contact. 
+We met as a team to introduce ourselves and discuss the project. We shared our schedules, initialized the project repository, and designated the point of contact. 
 
 
 ### Week of 01/27/25 
 <!--01/28/24-->
 
-We met with our project sponsor, Mark Burgman. Dr. Burgman went over the details of the project and explained his expectations for the application. He also introduced the concept of argument maps, dsicussed the purpose of the project, and shared example argument map spreadhssets that we may use when testing the app. 
+We met with our project sponsor, Mark Burgman. Dr. Burgman went over the details of the project and explained his expectations for the application. He also introduced the concept of argument maps, dsicussed the purpose of the project, and shared example argument map spreadsheets that we may use when testing the app. 
 
 ### Week of 02/10/25
 <!--02/10/24-->
 
-We met again to further discuss and develop the application. After the needs for our project, we decided Pyhton would be the best programming language for the project. We also planned another meeting with Dr. Burgman to address some remaining questions about the project. 
+We met again to further discuss and develop the application. After assessing the needs for our project, we decided Python would be the best programming language for the project. We also planned another meeting with Dr. Burgman to address some remaining questions about the project. 
 
 ### Weeks of 02/17 and 02/24/25 
 
-We continued developing the application and meeting occasionally, but most of the work was done separately as one of our team members was sick during this period. 
+We continued developing the application and met occasionally, but most of the work was done separately as one of our team members was sick during this period. 
 
 
 ## Team
