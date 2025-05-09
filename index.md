@@ -36,26 +36,39 @@ We continued developing the application and met occasionally, but most of the wo
 
 ### Weeks of 03/03 to 03/17
 
-We continued to develop and test the application. We mainly focused on formatting the output into a easily readable summary and fixing various bugs. 
+We continued developing and testing the application. We mainly focused on formatting the output into a clear, easily readable summary and fixing various bugs. 
 
 ### Week of 03/24
 <!--03/26/25-->
 
-We met with Dr. Burgman through Zoom to show the progress of our application and get feedback on what should be changed or removed. Dr. Burgman requested that we send him the application so he can test out the app for himself in order to give the most effective feedback. 
+We met with Dr. Burgman through Zoom to demonstrate the application's progress and gather feedback on what needed to be changed or removed. He requested that we send him the application so he could test it himself and provide more informed feedback. 
 
 ### Week of 03/31 
 <!--03/31/25-->
 
-Dr. Burgman had trouble setting up the application, so we met in person to help him set up the application and install the necessary dependencies. However, when trying to run the application, an error occurred and the program wouldn't open. Since we used Windows and Dr. Burgman used macOS, we were unaware of the bug until we ran the program on Dr. Burgman's machine, as Windows ignored this bug and still successfully compiled the program during the testing phase. 
+Dr. Burgman encountered difficulties setting up the application, so we met in person to assist with installation and dependency setup. However, when attempting to run the application, an error prevented it from launching. Since we developed and tested the app on Windows and Dr. Burgman was using macOS, we were unaware of the issue, as Windows compiled and ran the program without error.
 
 ### Week of 04/07
 <!--04/10/25-->
 
-We figured out what was causing the program to crash and removed the functionalities that were causing this problem, as it was also no longer needed. After removing the functionalities, the program ran smoothly. We showcased this to Dr. Burgman and gave him the updated files so he could run it on his machine and give us real time feedback. 
+We identified the cause of the crash and removed the features responsible for the issue, which were no longer necessary. After these changes, the application ran smoothly. We demonstrated the updated version to Dr. Burgman and provided the revised files so he could run it on his machine and give us real-time feedback.
 
 ### Week of 04/14 and 04/21 
 
-Using the Python library NLTK, we updated the app so that it flags key terms or phrases that are only used once in the Excel files, a feature Dr. Burgman requested after our last meeting. We met with him to show our new implementations. The program was able to flag words or phrases that only appeared once but it flagged every word or phrase that was only shown once, not specific types of words
+Using the Python library NLTK, we updated the app to flag key terms or phrases that appeared only once in the reasons column of the Excel files, a feature requested by Dr. Burgman. While the program successfully identified these terms and phrases, it flagged every instance that occurred once, rather than isolating only the most important ones.
+
+### Week of 04/28
+
+We continued working on refining the app so that it only flags truly important words and phrases. However, achieving this perfectly proved challenging, as the app doesn't learn what the keywords are. Instead, it simply analyzes each reason and looks for repeated words or phrases across other reasons. 
+
+We met with Dr. Burgman one final time to present the completed application and gather feedback on its analysis. Although we weren’t able to fully perfect the keyword detection, Dr. Burgman was satisfied with the overall summary output.
+
+### Week of 05/05 
+
+We made several last-minute improvements to the output layout, adding clearer and more descriptive labels. For instance, we changed "Argument 1" to "Reason 1" to better align with the Excel format. We also enhanced terminology, updating vague labels like "Missing Terms" to more specific phrases such as "Missing terms from threat," and replacing unclear messages with clearer alternatives like "Terms/phrases only used once."
+
+On May 8th, we showcased our application at the ICS Project Day. Many attendees expressed interest in the project and appreciated the concept and its potential applications.
+
 
 ## Team
 
