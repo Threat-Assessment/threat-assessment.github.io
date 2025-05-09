@@ -3,37 +3,31 @@
 ## Table of contents
 
 * [Overview](#overview)
-* [Project Updates](#project-updates)
+* [Introduction](#introduction)
 * [Implementation](#implementation)
+* [Results](#results)
+* [Conclusion](#conclusion)
+* * [Project Updates](#project-updates)
 * [Team](#team)
 
 ## Overview
 Our team aims to develop a desktop application for the School of Life Sciences (SoLS) at the University of Hawaiʻi at Mānoa. Twenty SoLS graduate students evaluated threat assessments for endangered species in the [IUCN Red List](https://www.iucnredlist.org/), translating the reasoning into argument maps. This application will read and interpret texts from Excel spreadsheets and assess the quality of the students' argument maps.
 
 ## Introduction 
-Dr. Mark Burgman provided example Excel sheets created by graduate students
-that contain threat assessments. The critical components of each assessment are
-the threat, reasons, evidence, and strength of evidence fields.
+Dr. Mark Burgman provided example Excel sheets created by graduate students that contain threat assessments. The critical components of each assessment are the threat, reasons, evidence, and strength of evidence fields.
 
 <p align="center">
   <img width="700px" align="center" src="../images/updatedexcel.png">
 </p>
 
-Ensuring the assessment templates follow a consistent format is more important
-than simply completing the assessments. Consistent formatting allows the GUI to
-parse the contents accurately or flag problematic files.
+Ensuring the assessment templates follow a consistent format is more important than simply completing the assessments. Consistent formatting allows the GUI to parse the contents accurately or flag problematic files.
 
 ## Implementation 
-The IUCN Spreadsheet Analyzer is a user-friendly, Python-based GUI tool that
-evaluates species endangerment using Excel files. Built with tkinter, pandas, and
-nltk, it processes assessment data, identifies argument structures, and outputs
-reports. Users select Excel files, set an output folder, and run analyses to extract argument maps—claims like “Species X is endangered” are supported by identified threats and evidence.
+The IUCN Spreadsheet Analyzer is a user-friendly, Python-based GUI tool that evaluates species endangerment using Excel files. Built with tkinter, pandas, and nltk, it processes assessment data, identifies argument structures, and outputs reports. Users select Excel files, set an output folder, and run analyses to extract argument maps—claims like “Species X is endangered” are supported by identified threats and evidence.
 
-The tool assesses argument quality, checks adherence to rules for argument
-mapping, and presents results as a list.
+The tool assesses argument quality, checks adherence to rules for argument mapping, and presents results as a list.
 
-To evaluate argument quality, the tool checks whether each map follows important
-argument mapping rules. These include:
+To evaluate argument quality, the tool checks whether each map follows important argument mapping rules. These include:
 • Ensuring each threat or reasoning is a complete, declarative sentence
 • Placing reasoning in its proper position in a map
 • Following rules such as the Golden Rule, the Rabbit Rule, and the Holding Hands
@@ -52,27 +46,16 @@ Key features of the app:
   <img width="700px" align="center" src="../images/analyzer-interface.png">
 </p>
 
-The IUCN Spreadsheet Analyzer displays key information extracted from the Excel
-files such as the file name, assessed species, assessor’s name, the number of
-reasons provided, and the number of markers for reasons, rejections, or rebuttals.
+The IUCN Spreadsheet Analyzer displays key information extracted from the Excel files such as the file name, assessed species, assessor’s name, the number of reasons provided, and the number of markers for reasons, rejections, or rebuttals.
 
 <p align="center">
   <img width="700px" align="center" src="../images/utextreport.png">
 </p>
 
-The analyzer also provides a detailed breakdown of the primary threat, reasonings,
-and the strength of the evidence. At the end of each analysis, the analyzer
-identifies missing terms from the claim within the reasons, and flags terms or
-phrases that appear only once across the argument map, indicating which
-argument maps need to be fixed.
+The analyzer also provides a detailed breakdown of the primary threat, reasonings, and the strength of the evidence. At the end of each analysis, the analyzer identifies missing terms from the claim within the reasons, and flags terms or phrases that appear only once across the argument map, indicating which argument maps need to be fixed.
 
 ## Conclusion
-The IUCN Spreadsheet Analyzer effectively transforms complex IUCN spreadsheet
-data into clear, evidence-based insights. By analyzing arguments like “Species X is
-endangered due to habitat loss” and ensuring adherence to argument map rules,
-the tool produces robust, well-structured outputs. Results are presented through
-an intuitive GUI and summarized in concise reports, making it a valuable tool for
-conservation analysis.
+The IUCN Spreadsheet Analyzer effectively transforms complex IUCN spreadsheet data into clear, evidence-based insights. By analyzing arguments like “Species X is endangered due to habitat loss” and ensuring adherence to argument map rules, the tool produces robust, well-structured outputs. Results are presented through an intuitive GUI and summarized in concise reports, making it a valuable tool for conservation analysis.
 
 ## Project Updates
 
@@ -131,7 +114,7 @@ We met with Dr. Burgman one final time to present the completed application and 
 
 We made several last-minute improvements to the output layout, adding clearer and more descriptive labels. For instance, we changed "Argument 1" to "Reason 1" to better align with the Excel format. We also enhanced terminology, updating vague labels like "Missing Terms" to more specific phrases such as "Missing terms from threat," and replacing unclear messages with clearer alternatives like "Terms/phrases only used once."
 
-On May 8th, we showcased our application at the ICS Project Day. Many attendees expressed interest in the project and appreciated the concept and its potential applications. 
+On May 8th, 2025, we showcased our application at the ICS Project Day. Many attendees expressed interest in the project and appreciated the concept and its potential applications. 
 
 ## Team
 
