@@ -118,4 +118,4 @@ On May 8th, 2025, we showcased our application at the ICS Project Day. Many atte
 
 ## Team
 
-Argument Map Assessment is designed, implemented, and maintained by Karissa Tabadero and Chester Leoso. 
+The IUCN Spreadsheet Analyzer is designed, implemented, and maintained by Karissa Tabadero and Chester Leoso. 
