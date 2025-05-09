@@ -23,7 +23,7 @@ Ensuring the assessment templates follow a consistent format is more important
 than simply completing the assessments. Consistent formatting allows the GUI to
 parse the contents accurately or flag problematic files.
 
-### Methods and Materials 
+## Implementation 
 The IUCN Spreadsheet Analyzer is a user-friendly, Python-based GUI tool that
 evaluates species endangerment using Excel files. Built with tkinter, pandas, and
 nltk, it processes assessment data, identifies argument structures, and outputs
