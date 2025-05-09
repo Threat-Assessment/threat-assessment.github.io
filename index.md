@@ -7,7 +7,7 @@
 * [Implementation](#implementation)
 * [Results](#results)
 * [Conclusion](#conclusion)
-* * [Project Updates](#project-updates)
+* [Project Updates](#project-updates)
 * [Team](#team)
 
 ## Overview
