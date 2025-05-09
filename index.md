@@ -4,11 +4,23 @@
 
 * [Overview](#overview)
 * [Project Updates](#project-updates)
+* [Implementation](#implementation)
 * [Team](#team)
 
 ## Overview
 
 Our team aims to develop a desktop application for the School of Life Sciences (SoLS) at the University of Hawaiʻi at Mānoa. Twenty SoLS graduate students evaluated threat assessments for endangered species in the [IUCN Red List](https://www.iucnredlist.org/), translating the reasoning into argument maps. This application will read and interpret texts from Excel spreadsheets and assess the quality of the students' argument maps.
+
+## Introduction 
+Dr. Mark Burgman provided example Excel sheets created by graduate students
+that contain threat assessments. The critical components of each assessment are
+the threat, reasons, evidence, and strength of evidence fields.
+
+(insert image)
+
+Ensuring the assessment templates follow a consistent format is more important
+than simply completing the assessments. Consistent formatting allows the GUI to
+parse the contents accurately or flag problematic files.
 
 ## Project Updates
 
