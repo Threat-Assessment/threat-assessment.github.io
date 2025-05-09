@@ -22,6 +22,53 @@ Ensuring the assessment templates follow a consistent format is more important
 than simply completing the assessments. Consistent formatting allows the GUI to
 parse the contents accurately or flag problematic files.
 
+### Methods and Materials 
+The IUCN Spreadsheet Analyzer is a user-friendly, Python-based GUI tool that
+evaluates species endangerment using Excel files. Built with tkinter, pandas, and
+nltk, it processes assessment data, identifies argument structures, and outputs
+reports. Users select Excel files, set an output folder, and run analyses to extract argument maps—claims like “Species X is endangered” are supported by identified threats and evidence.
+
+The tool assesses argument quality, checks adherence to rules for argument
+mapping, and presents results as a list.
+
+To evaluate argument quality, the tool checks whether each map follows important
+argument mapping rules. These include:
+• Ensuring each threat or reasoning is a complete, declarative sentence
+• Placing reasoning in its proper position in a map
+• Following rules such as the Golden Rule, the Rabbit Rule, and the Holding Hands
+Rule
+
+By addressing objections and ensuring data aligns with reasoning, it provides clear, evidence-based insights for conservation in a concise report.
+
+## Results 
+Key features of the app:
+- Extract argument maps from Excel spreadsheets
+- Analyze the quality of argument maps based on completeness and evidence quality
+- Compare assessments between different students
+- Generate reports
+
+(insert image)
+
+The IUCN Spreadsheet Analyzer displays key information extracted from the Excel
+files such as the file name, assessed species, assessor’s name, the number of
+reasons provided, and the number of markers for reasons, rejections, or rebuttals.
+
+(insert image)
+
+The analyzer also provides a detailed breakdown of the primary threat, reasonings,
+and the strength of the evidence. At the end of each analysis, the analyzer
+identifies missing terms from the claim within the reasons, and flags terms or
+phrases that appear only once across the argument map, indicating which
+argument maps need to be fixed.
+
+## Conclusion
+The IUCN Spreadsheet Analyzer effectively transforms complex IUCN spreadsheet
+data into clear, evidence-based insights. By analyzing arguments like “Species X is
+endangered due to habitat loss” and ensuring adherence to argument map rules,
+the tool produces robust, well-structured outputs. Results are presented through
+an intuitive GUI and summarized in concise reports, making it a valuable tool for
+conservation analysis.
+
 ## Project Updates
 
 This section provides ongoing updates about the project.
