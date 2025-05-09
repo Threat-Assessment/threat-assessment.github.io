@@ -15,7 +15,9 @@ Dr. Mark Burgman provided example Excel sheets created by graduate students
 that contain threat assessments. The critical components of each assessment are
 the threat, reasons, evidence, and strength of evidence fields.
 
-(insert image)
+<p align="center">
+  <img width="700px" align="center" src="../images/updatedexcel.png">
+</p>
 
 Ensuring the assessment templates follow a consistent format is more important
 than simply completing the assessments. Consistent formatting allows the GUI to
@@ -46,13 +48,17 @@ Key features of the app:
 - Compare assessments between different students
 - Generate reports
 
-(insert image)
+<p align="center">
+  <img width="700px" align="center" src="../images/analyzer-interface.png">
+</p>
 
 The IUCN Spreadsheet Analyzer displays key information extracted from the Excel
 files such as the file name, assessed species, assessor’s name, the number of
 reasons provided, and the number of markers for reasons, rejections, or rebuttals.
 
-(insert image)
+<p align="center">
+  <img width="700px" align="center" src="../images/utextreport.png">
+</p>
 
 The analyzer also provides a detailed breakdown of the primary threat, reasonings,
 and the strength of the evidence. At the end of each analysis, the analyzer
